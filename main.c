@@ -20,6 +20,8 @@ int main()
     printf("%d %d %d \n", p[0], p[1], p[2]);
     printf("%d %d %d \n", *a, *(a+1), *(a+2));
     printf("%d %d %d \n", *p, *(p+1), *(p+2));
+    printf("%p\n", p+1); //자료형이 int 이므로 포인터에 1을 더하면 주소값이 4만큼 늘어난다.
+    printf("%p\n", p+2);
 
     return 0;
 }
